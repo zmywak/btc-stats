@@ -13,3 +13,73 @@ First execute "00 download last 2 years btcusdt.py", which will create a file
 Let's ensure we downloaded the data
 
 ![Data visualization](./01_visualize_data.jpg)
+
+# 02 basic stats.py
+Over last 2 years are there any significant correlations between 'high' on Friday and 'high' the following day or a few days later ? Let's find out:
+
+```
+==Stats for Monday==
+Mondays: 0 days had higher high, 0 days had lower high.
+Tuesdays: 50 days had higher high, 54 days had lower high.
+Wednesdays: 55 days had higher high, 49 days had lower high.
+Thursdays: 47 days had higher high, 57 days had lower high.
+Fridays: 49 days had higher high, 54 days had lower high.
+Saturdays: 39 days had higher high, 64 days had lower high.
+Sundays: 44 days had higher high, 59 days had lower high.
+
+==Stats for Tuesday==
+Mondays: 47 days had higher high, 56 days had lower high.
+Tuesdays: 0 days had higher high, 0 days had lower high.
+Wednesdays: 54 days had higher high, 50 days had lower high.
+Thursdays: 48 days had higher high, 56 days had lower high.
+Fridays: 47 days had higher high, 56 days had lower high.
+Saturdays: 40 days had higher high, 63 days had lower high.
+Sundays: 43 days had higher high, 60 days had lower high.
+
+==Stats for Wednesday==
+Mondays: 41 days had higher high, 63 days had lower high.
+Tuesdays: 43 days had higher high, 61 days had lower high.
+Wednesdays: 0 days had higher high, 0 days had lower high.
+Thursdays: 42 days had higher high, 63 days had lower high.
+Fridays: 42 days had higher high, 62 days had lower high.
+Saturdays: 32 days had higher high, 72 days had lower high.
+Sundays: 36 days had higher high, 68 days had lower high.
+
+==Stats for Thursday==
+Mondays: 44 days had higher high, 60 days had lower high.
+Tuesdays: 45 days had higher high, 59 days had lower high.
+Wednesdays: 44 days had higher high, 60 days had lower high.
+Thursdays: 0 days had higher high, 0 days had lower high.
+Fridays: 48 days had higher high, 56 days had lower high.
+Saturdays: 34 days had higher high, 70 days had lower high.
+Sundays: 37 days had higher high, 67 days had lower high.
+
+==Stats for Friday==
+Mondays: 42 days had higher high, 62 days had lower high.
+Tuesdays: 50 days had higher high, 54 days had lower high.
+Wednesdays: 51 days had higher high, 53 days had lower high.
+Thursdays: 47 days had higher high, 57 days had lower high.
+Fridays: 0 days had higher high, 0 days had lower high.
+Saturdays: 31 days had higher high, 73 days had lower high.
+Sundays: 45 days had higher high, 59 days had lower high.
+
+==Stats for Saturday==
+Mondays: 66 days had higher high, 38 days had lower high.
+Tuesdays: 64 days had higher high, 40 days had lower high.
+Wednesdays: 60 days had higher high, 44 days had lower high.
+Thursdays: 59 days had higher high, 45 days had lower high.
+Fridays: 62 days had higher high, 41 days had lower high.
+Saturdays: 0 days had higher high, 0 days had lower high.
+Sundays: 61 days had higher high, 43 days had lower high.
+
+==Stats for Sunday==
+Mondays: 58 days had higher high, 46 days had lower high.
+Tuesdays: 58 days had higher high, 46 days had lower high.
+Wednesdays: 56 days had higher high, 48 days had lower high.
+Thursdays: 58 days had higher high, 46 days had lower high.
+Fridays: 56 days had higher high, 47 days had lower high.
+Saturdays: 44 days had higher high, 59 days had lower high.
+Sundays: 0 days had higher high, 0 days had lower high.
+```
+
+Interesting!
